@@ -4,4 +4,4 @@ class: text-center
 ---
 
 # Assignment!
-Seperti biasa, setiap selesai praktikum pasti ada tugas
+Kurang seru praktikum tanpa tugas :D

@@ -8,9 +8,22 @@ layout: center
 
 <div class="text-sm">
 
-Buat abstract class 'Shape' dengan tiga method abstrak yaitu 'rectangleArea' yang memiliki dua parameter, 'squareArea' dan 'circleArea' yang masing-masing memiliki satu parameter. Parameter dalam 'rectangleArea' adalah panjang dan lebar persegi panjang, 'squareArea' adalah sisi persegi, dan 'circleArea' adalah jari-jari lingkaran. Kemudian buat kelas 'Area' yang meng-extend kelas 'Shape' untuk mencetak luas persegi panjang, persegi dan lingkaran. 
+<!-- Buat abstract class 'Shape' dengan tiga method abstrak yaitu 'rectangleArea' yang memiliki dua parameter, 'squareArea' dan 'circleArea' yang masing-masing memiliki satu parameter. Parameter dalam 'rectangleArea' adalah panjang dan lebar persegi panjang, 'squareArea' adalah sisi persegi, dan 'circleArea' adalah jari-jari lingkaran. Kemudian buat kelas 'Area' yang meng-extend kelas 'Shape' untuk mencetak luas persegi panjang, persegi dan lingkaran.  -->
 
-Buat kelas `Test.java` untuk membuat objek dari kelas 'Area' dan panggil ketiga method tersebut.
+Buatlah 7 buah class :
+- `Rectangle`, class interface dengan 1 buah methods :
+    - CalculateArea(double length, double width)
+- `Square`, class interface dengan 1 buah methods :
+    - CalculateArea(double side)
+- `Circle`, class interface dengan 1 buah methods :
+    - CalculateArea(double radius)
+- `Area1`, class implementasi `Rectangle`
+- `Area2`, class implementasi `Square`
+- `Area3`, class implementasi `Circle`
+- `GeometricObject`, parent class dari `Area1`, `Area2`, dan `Area3` (di extend) dengan 1 buah method : 
+    - CalculateArea() yang mereturn 0
+
+Buat kelas `Test.java` untuk membuat objek dari kelas `Area1`,`Area2`, dan `Area3` lalu panggil ketiga objek tersebut beserta methodnya.
 
 </div>
 

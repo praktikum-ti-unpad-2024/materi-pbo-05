@@ -9,32 +9,27 @@ implementasikan UML berikut dengan class Test dan perbaiki class Test tersebut:
 
 ```java
 class Test {
-  public static void printMovablePoint(MovablePoint point) {
-    System.out.println(point);
-  }
 
   public static void main(String[] args) {
-    MovablePoint point1 = new MovablePoint(0,0);
-    point1.moveUp();
-    point1.moveUp();
-    point1.moveDown();
-    point1.moveRight();
-    point1.moveRight();
-    point1.moveRight();
-    point1.moveLeft();
-    System.out.println(point1);
+    CaesarCipher Cipher1 = new CaesarCipher();
+    System.out.println(Cipher1.encrypt("PemrogramanBerorientasiObjek", 5));
+    System.out.println(Cipher1.decrypt("WIVKBHWBSBOKBHLTWHA", 7));
 
-    Movable point2 = new MovablePoint(3,2);
+    Cipher Cipher2 = new CaesarCipher(3,2);
     // Change line of code below to fix the problem without change declaration code!
-    printMovablePoint(point2);
+    Cipher2.encrypt("KAGIQDQQJBQOFUZSMFQJFNGFUFIMEYQPUA", 12);
   }
 }
 ```
+
+Dengan ketentuan :
+- `Cipher` adalah class interface
+- `CaesarCipher` adalah class implement `Cipher`
 </div>
 
 <div>
 
-<img src="/asset/soal1.png" class="w-2/3 m-auto" />
+<img src="/asset/uml1.png" class="w-2/3 m-auto" />
 
 </div>
 </div>
