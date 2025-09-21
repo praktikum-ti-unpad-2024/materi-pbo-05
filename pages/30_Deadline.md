@@ -9,14 +9,14 @@ class: text-center
 <div>
 
 #### Kelas A:
-2 September 2024, 23:59 WIB
+2 September 2025, 23:59 WIB
 
 </div>
 <div>
 
 #### Kelas B:
 
-01 Oktober 2024, 23:59 WIB
+01 Oktober 2025, 23:59 WIB
 
 </div>
 </div>
