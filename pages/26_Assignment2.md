@@ -6,14 +6,14 @@ layout: center
 
 <br>
 
-Buatlah tugas ke-1 tadi dengan menggunakan **abstract class** (tanpa interface). <br> Nama abstract class : **AbstractCipher**
-
+Buatlah tugas ke-1 tadi dengan menggunakan **abstract class** (tanpa interface). <br>
+Nama abstract class : **AbstractConverter**
 ```java
 class Test {
   public static void main(String[] args) {
-    CaesarCipher Cipher1 = new CaesarCipher();
-    System.out.println(Cipher1.encrypt("AWBUUIRSDOB", 12));
-    System.out.println(Cipher1.decrypt("YIWG!!!", 12));
+    TemperatureConverter conv1 = new TemperatureConverter();
+    System.out.println("Celsius ke Fahrenheit: " + conv1.convert(30));
+    System.out.println("Fahrenheit ke Celsius: " + conv1.revert(86));
   }
 }
 ```
