@@ -17,7 +17,7 @@ Contoh Format
 
 ```java {all}
 /*
-  Nama	: Jane Doe
+  Nama	    : Jane Doe
   NPM		: 99
   Kelas		: A
   Tanggal	: 1 September 2021
