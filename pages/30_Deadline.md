@@ -9,7 +9,7 @@ class: text-center
 <div>
 
 #### Kelas A:
-2 September 2025, 23:59 WIB
+28 September 2025, 23:59 WIB
 
 </div>
 <div>
