@@ -8,8 +8,6 @@ layout: center
 
 <div class="text-sm">
 
-
-
 Buatlah 7 buah class :
 - `StreetCircuit`, class interface dengan 1 buah methods :
     - calculateRaceTime(double lapTime, int laps, double penaltyTime)
@@ -26,7 +24,6 @@ Buatlah 7 buah class :
 Buat kelas `Race.java` untuk membuat objek dari kelas `MonacoRace`,`Indy500Race`, dan `DakarRally` lalu panggil ketiga objek tersebut beserta methodnya untuk menghitung total waktu balapan.
 
 </div>
-
 <div class='mt-6 grid grid-cols-[0.2fr_1.5fr] items-center text-sm gap-3'>
 <span class='text-xs text-white font-extrabold uppercase text-yellow'>Input</span>
 <div class='flex flex-col mb-2'>
@@ -43,11 +40,9 @@ Contoh Input & Output
 Masukkan waktu per lap (detik): 65.5
 Masukkan jumlah lap: 78
 Masukkan penalti waktu (detik): 10
-
 == Data Balapan Indy 500 (Oval Circuit) ==
 Masukkan waktu per lap (detik): 123.0
 Masukkan jumlah lap: 200
-
 == Data Balapan Dakar (Rally Circuit) ==
 Masukkan waktu per lap (menit): 80.0
 Masukkan jumlah lap: 10
@@ -58,7 +53,6 @@ Total waktu balapan Monaco: 5119.00 detik
 Total waktu balapan Indy 500: 24600.00 detik
 Total waktu balapan Dakar: 960.00 menit
 ```
-
 </div>
 </div>
 </div>

@@ -23,4 +23,4 @@ class: text-center
 
 <br>
 
-**Waktu yang dilihat adalah waktu last commit.**<br> Jika ada yang commit melewati deadline walaupun sudah commit sebelumnya akan dianggap telat raghrrrrrrrr aku ketua dpa
+**Waktu yang dilihat adalah waktu last commit.**<br> Jika ada yang commit melewati deadline walaupun sudah commit sebelumnya akan dianggap telat raghrrrrrrrr aku ketua dpa-.Kata Hamud
